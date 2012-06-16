@@ -1,2 +1,0 @@
- select name, screen_name, followers_count from twitter_temp where name like"%Scott%" order by followers_count desc limit 20;
- select name, screen_name, count(1) as cc from twitter_temp where text like "%Azure%" group by name,screen_name order by cc desc limit 10;
