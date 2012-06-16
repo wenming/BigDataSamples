@@ -1,0 +1,43 @@
+// you can create your own mock dataset using a python script by adding fields based on probability.
+
+
+drop table service_logs;
+
+CREATE EXTERNAL TABLE service_logs (
+ipaddr STRING,
+col2 STRING,
+dates STRING,
+times STRING, 
+sevrdomain STRING, 
+server STRING, 
+option7 STRING, 
+option8 STRING,
+option9 STRING, 
+option10 STRING, 
+returncode STRING, 
+option12 STRING, 
+method STRING, 
+content STRING, 
+useragent STRING, 
+refferal STRING, 
+session STRING, 
+option18 STRING,
+partner STRING,
+query STRING,
+country STRING
+)
+COMMENT 'This is a service log sample'
+ROW FORMAT DELIMITED FIELDS TERMINATED by '44'
+STORED AS TEXTFILE
+LOCATION 'asv://servicelogs/';
+
+select * from service_logs limit 10;
+
+create table top_countries_techED as select country, count(country) as HIT_Count from service_logs group by country order by HIT_Count desc limit 20;
+
+
+
+select country, ccount from top_countries_large order by ccount desc limit 10;
+file = fs.read("/hive/warehouse/top_countries_large/");
+data = parseHive(file.data, "country, count:int");
+graph.bar(data)

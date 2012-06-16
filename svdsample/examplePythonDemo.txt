@@ -1,0 +1,40 @@
+from numpy import *
+from numpy.linalg import svd
+
+A = array ([( 1.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,  0.),
+       ( 1.,  0.,  1.,  0.,  0.,  0.,  0.,  0.,  0.),
+       ( 1.,  1.,  0.,  0.,  0.,  0.,  0.,  0.,  0.),
+       ( 0.,  1.,  1.,  0.,  1.,  0.,  0.,  0.,  0.),
+       ( 0.,  1.,  1.,  2.,  0.,  0.,  0.,  0.,  0.),
+       ( 0.,  1.,  0.,  0.,  1.,  0.,  0.,  0.,  0.),
+       ( 0.,  1.,  0.,  0.,  1.,  0.,  0.,  0.,  0.),
+       ( 0.,  0.,  1.,  1.,  0.,  0.,  0.,  0.,  0.),
+       ( 0.,  1.,  0.,  0.,  0.,  0.,  0.,  0.,  1.),
+       ( 0.,  0.,  0.,  0.,  0.,  1.,  1.,  1.,  0.),
+       ( 0.,  0.,  0.,  0.,  0.,  0.,  1.,  1.,  1.),
+       ( 0.,  0.,  0.,  0.,  0.,  0.,  0.,  1.,  1.)])
+
+
+
+U,sigma,V = svd(A)   # decompose into 3 matrix by Single value decomposition
+Sigma = zeros_like(A)  
+n = min(A.shape)
+Sigma[:n,:n] = diag(sigma)
+U2=U[:,:2]
+S2=Sigma[:2,:2]    ## take 2 eign values
+V=transpose(V)
+V2=V[:,:2]
+
+
+A2=dot(U2,dot(S2,transpose(V2)))
+print A2[1,:]
+print A2[4,:]
+print "relation between human and user: ",   dot(A2[0,:],A2[ 3,:])/linalg.norm(A2[0,:])/linalg.norm(A2[ 3,:])   
+print "relation between human and minor: ", dot(A2[0,:],A2[11,:])/linalg.norm(A2[0,:])/linalg.norm(A2[11,:]) 
+
+
+
+
+------------------------------------------------------ 
+
+dot(A2[9,:],A2[10,:])/linalg.norm(A2[9,:])/linalg.norm(A2[10,:]) 

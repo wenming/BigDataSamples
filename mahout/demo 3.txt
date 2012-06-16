@@ -1,0 +1,5 @@
+#rmr temp and output dir.
+Now we can run the Mahout job using the following command:
+ hadoop jar c:\Apps\dist\mahout\mahout-core-0.5-job.jar org.apache.mahout.cf.taste.hadoop.item.RecommenderJob --input=input/mInput.txt --output=output --usersFile=input/users.txt 
+The Mahout job should run for several minutes, after which an output file will be created. Run the following command to create a local copy of the output file:
+ hadoop fs -copyToLocal output/part-r-00000 c:\output.txt
