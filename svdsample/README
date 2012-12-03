@@ -1,1 +1,5 @@
 some SVD samples.
+
+INstall Python with Numpy, scipy from http://www.enthought.com/products/epd_free.php
+you should install Python Tools for Visual Studio from WebPI.  
+
