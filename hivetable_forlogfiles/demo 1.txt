@@ -1,5 +1,4 @@
-// you can create your own mock dataset using a python script by adding fields based on probability.
-
+// you can create your own mock dataset using a python script by adding fields based on probability.  or contact @wenmingye
 
 drop table service_logs;
 
