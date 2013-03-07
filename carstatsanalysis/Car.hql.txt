@@ -1,0 +1,20 @@
+CREATE EXTERNAL TABLE Drives (
+lapno int, laplength int, 
+laptime int, laptime2 int, 
+speed float, lataccel string, 
+longaccel string, temp string, 
+steering_angle int, rpm int, 
+engine_temp float, gear int, 
+height int, longitude int, 
+latitude int, longit string, 
+lat string) 
+row format delimited  fields terminated by '\073'  
+location 'asv://car';
+
+SELECT * FROM Drives limit 20;
+
+select gear, max(speed), avg(speed), min(speed) from Drives group by gear;
+
+select max(speed), max(rpm) from Drives where engine_temp<70;
+
+DROP TABLE Drives;

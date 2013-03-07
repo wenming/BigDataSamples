@@ -1,0 +1,15 @@
+collection of samples to be used with IPython notebook. 
+Instructions:  Install IPython notebook.
+http://www.windowsazure.com/en-us/develop/python/tutorials/ipython-notebook/
+
+For the additional packages required in the demos you will need to install the packages individually.   
+
+
+Use one of the following depending on the situation.
+apt-get install 
+easy_install
+pip
+
+
+For questions please send tweets to:
+@wenmingye
