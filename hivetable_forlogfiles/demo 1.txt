@@ -45,4 +45,7 @@ graph.bar(data)
 If you would like to run this on a one box, download the files and copy them onto HDFS.
 hadoop dfs -copyFromLocal *.gz /user/_YOUR USER NAME/data
 
+
 then change Location from asv to /user/_YOUR USER NAME/data
+
+You can also use excel and powerview to visualize the dataset by importing the top_countries_techEd table.
