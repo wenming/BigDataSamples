@@ -1,5 +1,21 @@
 #rmr temp and output dir.
+hadoop dfs rmdir 
+
+Assuming mInput.txt and users.txt are both in your current directory. run the follow commands to copy them to Hdfs where mahout expects the files.  
+
+hadoop dfs -mkdir input   // make input directory.
+a directory named input will be created for you on the hadoop file system.  In this case it is in /user/writer/input  This depends on the default user you logged in as. (eg. /user/writer).
+
+
+hadoop dfs -copyFromLocal mInput.txt /user/writer/input/
+hadoop dfs -copyFromLocal users.txt /user/writer/input/
+
+check files are there by typing:  hadoop dfs -ls /user/writer/input  
+
 Now we can run the Mahout job using the following command:
  hadoop jar c:\Apps\dist\mahout\mahout-core-0.5-job.jar org.apache.mahout.cf.taste.hadoop.item.RecommenderJob --input=input/mInput.txt --output=output --usersFile=input/users.txt 
-The Mahout job should run for several minutes, after which an output file will be created. Run the following command to create a local copy of the output file:
+
+The Mahout job should run for several minutes, after which an output file will be created. Run the following command to create 
+a local copy of the output file:
+
  hadoop fs -copyToLocal output/part-r-00000 c:\output.txt
