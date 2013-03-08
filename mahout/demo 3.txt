@@ -1,5 +1,7 @@
 #rmr temp and output dir.
-hadoop dfs rmdir 
+hadoop dfs -rmr input  
+hadoop dfs -rmr temp   
+
 
 Assuming mInput.txt and users.txt are both in your current directory. run the follow commands to copy them to Hdfs where mahout expects the files.  
 
