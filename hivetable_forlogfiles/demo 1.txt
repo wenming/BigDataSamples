@@ -1,5 +1,4 @@
-// you can create your own mock dataset using a python script by adding fields based on probability.
-
+// you can create your own mock dataset using a python script by adding fields based on probability.  or contact @wenmingye
 
 drop table service_logs;
 
@@ -41,3 +40,12 @@ select country, ccount from top_countries_large order by ccount desc limit 10;
 file = fs.read("/hive/warehouse/top_countries_large/");
 data = parseHive(file.data, "country, count:int");
 graph.bar(data)
+
+
+If you would like to run this on a one box, download the files and copy them onto HDFS.
+hadoop dfs -copyFromLocal *.gz /user/_YOUR USER NAME/data
+
+
+then change Location from asv to /user/_YOUR USER NAME/data
+
+You can also use excel and powerview to visualize the dataset by importing the top_countries_techEd table.
