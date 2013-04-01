@@ -1,0 +1,307 @@
+2013-04-01 03:48:23,857 [main] INFO  org.apache.pig.Main - Logging error messages to: C:\apps\dist\hadoop-1.1.0-SNAPSHOT\logs\pig_1364788103855.log
+2013-04-01 03:48:24,174 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to hadoop file system at: asv://hdinsight-1@hdstorage1.blob.core.windows.net
+2013-04-01 03:48:24,976 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to map-reduce job tracker at: jobtrackerhost:9010
+2013-04-01 03:48:25,719 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig features used in the script: ORDER_BY,LIMIT,NATIVE
+2013-04-01 03:48:26,068 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - File concatenation threshold: 100 optimistic? false
+2013-04-01 03:48:26,236 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size before optimization: 5
+2013-04-01 03:48:26,236 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size after optimization: 5
+2013-04-01 03:48:26,422 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2013-04-01 03:48:26,439 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2013-04-01 03:48:26,460 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job3470082832514908081.jar
+2013-04-01 03:48:28,917 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job3470082832514908081.jar created
+2013-04-01 03:48:28,933 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2013-04-01 03:48:29,006 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2013-04-01 03:48:29,506 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 0% complete
+2013-04-01 03:48:29,609 [Thread-8] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 40
+2013-04-01 03:48:29,609 [Thread-8] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 40
+2013-04-01 03:48:29,623 [Thread-8] INFO  org.apache.hadoop.util.NativeCodeLoader - Loaded the native-hadoop library
+2013-04-01 03:48:29,623 [Thread-8] WARN  org.apache.hadoop.io.compress.snappy.LoadSnappy - Snappy native library not loaded
+2013-04-01 03:48:29,641 [Thread-8] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 40
+2013-04-01 03:48:30,630 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201303282217_0007
+2013-04-01 03:48:30,630 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://jobtrackerhost:50030/jobdetails.jsp?jobid=job_201303282217_0007
+2013-04-01 03:50:58,144 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 20% complete
+2013-04-01 03:51:02,491 [main] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 40
+2013-04-01 03:51:03,059 [main] INFO  org.apache.hadoop.mapred.JobClient - Running job: job_201303282217_0008
+2013-04-01 03:51:04,063 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 0% reduce 0%
+2013-04-01 03:51:40,120 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 1% reduce 0%
+2013-04-01 03:51:47,132 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 2% reduce 0%
+2013-04-01 03:51:53,142 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 3% reduce 0%
+2013-04-01 03:51:59,159 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 4% reduce 0%
+2013-04-01 03:52:04,169 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 5% reduce 0%
+2013-04-01 03:52:10,185 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 6% reduce 0%
+2013-04-01 03:52:16,195 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 7% reduce 0%
+2013-04-01 03:52:21,204 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 8% reduce 0%
+2013-04-01 03:52:29,217 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 9% reduce 0%
+2013-04-01 03:52:34,228 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 10% reduce 0%
+2013-04-01 03:52:39,239 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 11% reduce 0%
+2013-04-01 03:52:45,249 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 12% reduce 0%
+2013-04-01 03:52:52,263 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 13% reduce 0%
+2013-04-01 03:52:58,282 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 14% reduce 0%
+2013-04-01 03:53:03,291 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 15% reduce 0%
+2013-04-01 03:53:09,302 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 16% reduce 0%
+2013-04-01 03:53:17,318 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 17% reduce 0%
+2013-04-01 03:53:21,323 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 18% reduce 0%
+2013-04-01 03:53:27,332 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 19% reduce 0%
+2013-04-01 03:53:34,352 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 20% reduce 0%
+2013-04-01 03:53:40,362 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 21% reduce 0%
+2013-04-01 03:53:44,366 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 22% reduce 0%
+2013-04-01 03:53:51,376 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 23% reduce 0%
+2013-04-01 03:53:58,385 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 24% reduce 0%
+2013-04-01 03:54:04,396 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 25% reduce 0%
+2013-04-01 03:54:08,407 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 26% reduce 0%
+2013-04-01 03:54:15,417 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 27% reduce 0%
+2013-04-01 03:54:20,427 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 28% reduce 0%
+2013-04-01 03:54:27,441 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 29% reduce 0%
+2013-04-01 03:54:32,450 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 30% reduce 0%
+2013-04-01 03:54:38,466 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 31% reduce 0%
+2013-04-01 03:54:45,482 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 32% reduce 0%
+2013-04-01 03:54:51,489 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 33% reduce 0%
+2013-04-01 03:54:57,502 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 34% reduce 0%
+2013-04-01 03:55:03,512 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 35% reduce 0%
+2013-04-01 03:55:09,526 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 36% reduce 0%
+2013-04-01 03:55:13,531 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 37% reduce 0%
+2013-04-01 03:55:20,541 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 38% reduce 0%
+2013-04-01 03:55:27,552 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 39% reduce 0%
+2013-04-01 03:55:43,583 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 40% reduce 0%
+2013-04-01 03:58:05,832 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 41% reduce 0%
+2013-04-01 03:58:10,843 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 41% reduce 2%
+2013-04-01 03:58:14,853 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 42% reduce 2%
+2013-04-01 03:58:22,865 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 43% reduce 4%
+2013-04-01 03:58:26,871 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 43% reduce 5%
+2013-04-01 03:58:30,878 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 44% reduce 5%
+2013-04-01 03:58:40,899 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 45% reduce 6%
+2013-04-01 03:58:47,919 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 46% reduce 6%
+2013-04-01 03:58:54,930 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 47% reduce 6%
+2013-04-01 03:59:04,941 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 48% reduce 6%
+2013-04-01 03:59:12,954 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 49% reduce 6%
+2013-04-01 03:59:19,965 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 50% reduce 6%
+2013-04-01 03:59:25,979 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 51% reduce 6%
+2013-04-01 03:59:32,989 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 52% reduce 6%
+2013-04-01 03:59:36,998 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 53% reduce 6%
+2013-04-01 03:59:44,010 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 54% reduce 6%
+2013-04-01 03:59:50,022 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 55% reduce 6%
+2013-04-01 03:59:56,035 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 56% reduce 6%
+2013-04-01 04:00:03,044 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 57% reduce 6%
+2013-04-01 04:00:08,053 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 58% reduce 6%
+2013-04-01 04:00:14,066 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 59% reduce 6%
+2013-04-01 04:00:20,073 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 60% reduce 6%
+2013-04-01 04:00:25,084 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 61% reduce 6%
+2013-04-01 04:00:30,093 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 61% reduce 8%
+2013-04-01 04:00:31,094 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 62% reduce 8%
+2013-04-01 04:00:38,107 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 63% reduce 8%
+2013-04-01 04:00:44,113 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 64% reduce 8%
+2013-04-01 04:00:49,126 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 65% reduce 8%
+2013-04-01 04:00:55,138 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 66% reduce 8%
+2013-04-01 04:01:00,147 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 67% reduce 8%
+2013-04-01 04:01:05,157 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 68% reduce 8%
+2013-04-01 04:01:12,170 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 69% reduce 8%
+2013-04-01 04:01:17,181 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 70% reduce 8%
+2013-04-01 04:01:22,187 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 71% reduce 8%
+2013-04-01 04:01:30,203 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 72% reduce 8%
+2013-04-01 04:01:33,207 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 72% reduce 9%
+2013-04-01 04:01:36,213 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 73% reduce 9%
+2013-04-01 04:01:37,214 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 73% reduce 10%
+2013-04-01 04:01:40,219 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 74% reduce 10%
+2013-04-01 04:01:50,234 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 75% reduce 10%
+2013-04-01 04:01:59,246 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 76% reduce 10%
+2013-04-01 04:02:09,263 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 77% reduce 10%
+2013-04-01 04:02:12,269 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 77% reduce 12%
+2013-04-01 04:02:28,292 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 78% reduce 12%
+2013-04-01 04:02:52,324 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 79% reduce 12%
+2013-04-01 04:03:33,390 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 80% reduce 12%
+2013-04-01 04:03:37,395 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 80% reduce 13%
+2013-04-01 04:03:43,409 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 80% reduce 14%
+2013-04-01 04:03:53,432 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 80% reduce 15%
+2013-04-01 04:03:56,456 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 81% reduce 15%
+2013-04-01 04:04:13,486 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 82% reduce 15%
+2013-04-01 04:04:23,502 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 83% reduce 15%
+2013-04-01 04:04:33,517 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 83% reduce 16%
+2013-04-01 04:04:34,518 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 84% reduce 16%
+2013-04-01 04:04:45,539 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 85% reduce 16%
+2013-04-01 04:04:58,557 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 86% reduce 16%
+2013-04-01 04:05:08,573 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 87% reduce 16%
+2013-04-01 04:05:19,593 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 88% reduce 16%
+2013-04-01 04:05:27,604 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 88% reduce 17%
+2013-04-01 04:05:30,608 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 89% reduce 17%
+2013-04-01 04:05:44,633 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 90% reduce 17%
+2013-04-01 04:05:55,654 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 91% reduce 17%
+2013-04-01 04:06:06,673 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 92% reduce 17%
+2013-04-01 04:06:16,685 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 93% reduce 17%
+2013-04-01 04:06:26,703 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 94% reduce 17%
+2013-04-01 04:06:37,718 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 95% reduce 17%
+2013-04-01 04:06:50,740 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 96% reduce 17%
+2013-04-01 04:07:00,756 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 97% reduce 17%
+2013-04-01 04:07:11,772 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 98% reduce 17%
+2013-04-01 04:07:13,775 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 98% reduce 19%
+2013-04-01 04:07:23,788 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 19%
+2013-04-01 04:07:37,818 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 20%
+2013-04-01 04:08:17,887 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 21%
+2013-04-01 04:08:54,943 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 22%
+2013-04-01 04:10:09,061 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 23%
+2013-04-01 04:10:35,097 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 24%
+2013-04-01 04:11:03,137 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 25%
+2013-04-01 04:12:58,349 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 27%
+2013-04-01 04:13:43,426 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 28%
+2013-04-01 04:14:06,475 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 29%
+2013-04-01 04:14:23,496 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 99% reduce 30%
+2013-04-01 04:23:38,413 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 30%
+2013-04-01 04:23:47,426 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 31%
+2013-04-01 04:24:08,457 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 32%
+2013-04-01 04:24:26,480 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 33%
+2013-04-01 04:47:36,619 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 66%
+2013-04-01 04:48:35,702 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 67%
+2013-04-01 04:50:15,833 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 68%
+2013-04-01 04:52:16,999 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 69%
+2013-04-01 04:54:00,135 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 70%
+2013-04-01 04:55:40,272 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 71%
+2013-04-01 04:57:14,395 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 72%
+2013-04-01 04:58:39,501 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 73%
+2013-04-01 05:00:09,627 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 74%
+2013-04-01 05:01:43,746 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 75%
+2013-04-01 05:03:09,885 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 76%
+2013-04-01 05:04:49,012 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 77%
+2013-04-01 05:06:29,140 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 78%
+2013-04-01 05:08:21,274 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 79%
+2013-04-01 05:10:22,461 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 80%
+2013-04-01 05:12:08,608 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 81%
+2013-04-01 05:13:57,764 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 82%
+2013-04-01 05:15:37,918 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 83%
+2013-04-01 05:17:15,101 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 84%
+2013-04-01 05:18:55,227 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 85%
+2013-04-01 05:21:11,393 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 86%
+2013-04-01 05:23:03,554 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 87%
+2013-04-01 05:24:28,673 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 88%
+2013-04-01 05:25:44,765 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 89%
+2013-04-01 05:27:30,911 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 90%
+2013-04-01 05:29:15,053 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 91%
+2013-04-01 05:30:46,178 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 92%
+2013-04-01 05:32:41,325 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 93%
+2013-04-01 05:34:42,500 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 94%
+2013-04-01 05:36:37,658 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 95%
+2013-04-01 05:38:32,808 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 96%
+2013-04-01 05:40:21,958 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 97%
+2013-04-01 05:42:11,099 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 98%
+2013-04-01 05:43:51,243 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 99%
+2013-04-01 05:45:46,398 [main] INFO  org.apache.hadoop.mapred.JobClient -  map 100% reduce 100%
+2013-04-01 05:46:04,422 [main] INFO  org.apache.hadoop.mapred.JobClient - Job complete: job_201303282217_0008
+2013-04-01 05:46:04,434 [main] INFO  org.apache.hadoop.mapred.JobClient - Counters: 30
+2013-04-01 05:46:04,434 [main] INFO  org.apache.hadoop.mapred.JobClient -   Job Counters 
+2013-04-01 05:46:04,434 [main] INFO  org.apache.hadoop.mapred.JobClient -     Launched reduce tasks=1
+2013-04-01 05:46:04,435 [main] INFO  org.apache.hadoop.mapred.JobClient -     SLOTS_MILLIS_MAPS=19496409
+2013-04-01 05:46:04,435 [main] INFO  org.apache.hadoop.mapred.JobClient -     Total time spent by all reduces waiting after reserving slots (ms)=0
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     Total time spent by all maps waiting after reserving slots (ms)=0
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     Rack-local map tasks=12
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     Launched map tasks=44
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     SLOTS_MILLIS_REDUCES=6522155
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -   File Output Format Counters 
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     Bytes Written=21260628
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -   FileSystemCounters
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     FILE_BYTES_READ=72917341935
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     HDFS_BYTES_READ=6280
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     ASV_BYTES_READ=10310869147
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     ASV_BYTES_WRITTEN=21260628
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -     FILE_BYTES_WRITTEN=89837901939
+2013-04-01 05:46:04,436 [main] INFO  org.apache.hadoop.mapred.JobClient -   File Input Format Counters 
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Bytes Read=10310869147
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -   Map-Reduce Framework
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Map output materialized bytes=16919497064
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Map input records=208533744
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Reduce shuffle bytes=16919497064
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Spilled Records=9597596647
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Map output bytes=13308658942
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     CPU time spent (ms)=15293620
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Total committed heap usage (bytes)=28689825792
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     Combine input records=0
+2013-04-01 05:46:04,439 [main] INFO  org.apache.hadoop.mapred.JobClient -     SPLIT_RAW_BYTES=6280
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Reduce input records=1805418941
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Reduce input groups=1847296
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Combine output records=0
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Physical memory (bytes) snapshot=28411064320
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Reduce output records=1847296
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Virtual memory (bytes) snapshot=32529195008
+2013-04-01 05:46:04,440 [main] INFO  org.apache.hadoop.mapred.JobClient -     Map output records=1805418941
+2013-04-01 05:46:04,443 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 40% complete
+2013-04-01 05:46:04,444 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2013-04-01 05:46:04,446 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2013-04-01 05:46:04,448 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job9164470524523048186.jar
+2013-04-01 05:46:06,752 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job9164470524523048186.jar created
+2013-04-01 05:46:06,765 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2013-04-01 05:46:06,981 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2013-04-01 05:46:08,164 [Thread-30] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2013-04-01 05:46:08,165 [Thread-30] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2013-04-01 05:46:08,167 [Thread-30] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2013-04-01 05:46:09,189 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201303282217_0009
+2013-04-01 05:46:09,189 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://jobtrackerhost:50030/jobdetails.jsp?jobid=job_201303282217_0009
+2013-04-01 05:46:27,730 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 44% complete
+2013-04-01 05:46:30,738 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 48% complete
+2013-04-01 05:46:36,758 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 50% complete
+2013-04-01 05:46:42,802 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 60% complete
+2013-04-01 05:46:43,846 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2013-04-01 05:46:43,846 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2013-04-01 05:46:43,846 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job2644076631035456983.jar
+2013-04-01 05:46:46,120 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job2644076631035456983.jar created
+2013-04-01 05:46:46,127 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2013-04-01 05:46:46,212 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2013-04-01 05:46:47,300 [Thread-41] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2013-04-01 05:46:47,300 [Thread-41] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2013-04-01 05:46:47,300 [Thread-41] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2013-04-01 05:46:49,963 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201303282217_0010
+2013-04-01 05:46:49,963 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://jobtrackerhost:50030/jobdetails.jsp?jobid=job_201303282217_0010
+2013-04-01 05:47:10,016 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 70% complete
+2013-04-01 05:47:19,537 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 73% complete
+2013-04-01 05:47:25,557 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 80% complete
+2013-04-01 05:47:30,430 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2013-04-01 05:47:30,430 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2013-04-01 05:47:30,430 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job3374808663142281368.jar
+2013-04-01 05:47:32,655 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job3374808663142281368.jar created
+2013-04-01 05:47:32,660 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2013-04-01 05:47:32,791 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2013-04-01 05:47:33,510 [Thread-51] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2013-04-01 05:47:33,510 [Thread-51] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2013-04-01 05:47:33,510 [Thread-51] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2013-04-01 05:47:34,689 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201303282217_0011
+2013-04-01 05:47:34,690 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://jobtrackerhost:50030/jobdetails.jsp?jobid=job_201303282217_0011
+2013-04-01 05:47:54,362 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 85% complete
+2013-04-01 05:47:57,368 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 90% complete
+2013-04-01 05:48:06,394 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 93% complete
+2013-04-01 05:48:19,656 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 100% complete
+2013-04-01 05:48:19,659 [main] INFO  org.apache.pig.tools.pigstats.SimplePigStats - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+1.1.0-SNAPSHOT	0.9.3-SNAPSHOT	admin	2013-04-01 03:48:26	2013-04-01 05:48:19	ORDER_BY,LIMIT,NATIVE
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTIme	AvgMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	Alias	Feature	Outputs
+job_201303282217_0007	40	0	52	28	34	0	0	0	q0	MAP_ONLY	
+job_201303282217_0009	1	0	18	18	18	0	0	0	q1	MAP_ONLY	
+job_201303282217_0010	1	1	6	6	6	15	15	15	q2	SAMPLER	
+job_201303282217_0011	1	1	12	12	12	15	15	15	q2	ORDER_BY,COMBINER	asv://hdinsight-1@hdstorage1.blob.core.windows.net/user/admin/DaVinciTop10,
+job_D:/Users/admin/AppData/Local/Temp/MRjs3106371921261400733.jar__0001	0	0	0	0	0	0	0	0		NATIVE	
+
+Input(s):
+Successfully read 208533744 records (15000 bytes) from: "asv://textfiles@gutenbergstore.blob.core.windows.net"
+Successfully read 1847296 records (412 bytes) from: "asv://hdinsight-1@hdstorage1.blob.core.windows.net/user/admin/.oink/pig5/mr0/out"
+
+Output(s):
+Successfully stored 10 records in: "asv://hdinsight-1@hdstorage1.blob.core.windows.net/user/admin/DaVinciTop10"
+
+Counters:
+Total records written : 10
+Total bytes written : 0
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_201303282217_0007	->	job_D:/Users/admin/AppData/Local/Temp/MRjs3106371921261400733.jar__0001,
+job_D:/Users/admin/AppData/Local/Temp/MRjs3106371921261400733.jar__0001	->	job_201303282217_0009,
+job_201303282217_0009	->	job_201303282217_0010,
+job_201303282217_0010	->	job_201303282217_0011,
+job_201303282217_0011
+
+
+2013-04-01 05:48:19,697 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Success!
+
+ 
