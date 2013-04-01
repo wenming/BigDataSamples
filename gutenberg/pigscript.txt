@@ -1,0 +1,6 @@
+pig.from("asv://textfiles@gutenbergstore.blob.core.windows.net/").mapReduce("/usr/admin/WordCount.js", "word, count:long").orderBy("count DESC").take(10).to("DaVinciTop10")
+
+file = fs.read("DaVinciTop10")
+data = parse(file.data, "word, count:long")
+graph.bar(data)
+
